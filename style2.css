@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.gamber{
+    height: 100%;
+    width: 100%;
+    min-height: 100ch;
+    background: rgb(167, 101, 253);
+    position: relative;
+}
+.gamber .happy h1{
+    padding-left: 100px;
+    display: block;
+    font-size: 45px;
+    text-decoration: none;
+    color: white;
+    padding-top: 80px;
+}
+.gamber .happy p{
+    padding-left: 100px;
+    max-width: 100%;
+    width: 700px;
+    color: white;
+    line-height: 3;
+    font-size: 30x;
+    margin-bottom: 20px;
+}
+.imager{
+    position: absolute;
+    padding-bottom: 500px;
+    padding-left: 200px;
+    width: 100%;
+    height: 85%;
+    bottom: 0;
+    right: 0;
+    text-align: right;
+}
+.image imgs{
+    height: 85%;
+}
+.gambare{
+    height: 100%;
+    width: 100%;
+    min-height: 100ch;
+    background: white;
+    position: relative;
+
+}
+.gambare .tectic h1{
+    text-align: center;
+    display: block;
+    font-size: 55px;
+    text-decoration: none;
+    color: red;
+}
+.gambare .thanks h3{
+    text-align: center;
+    display: block;
+    font-size: 30px;
+    text-decoration: none;
+    color: blue;
+}
+.testomonials{
+    width: 80%;
+    margin: auto;
+    padding-top:100px;
+    text-align: center;
+}
+.testomonials-col{
+    flex-basis: 44%;
+    border-radius: 10px;
+    margin-bottom: 5%;
+    text-align: left;
+    background: #fff3f3;
+    padding: 25px;
+    cursor: pointer;
+    display: flex;
+}
+.testomonials-col img{
+    height: 40px;
+    margin-left: 5px;
+    margin-right: 30px;
+    border-radius: 50%;  
+}
+.testimonials-col p{
+    padding: 0;
+}
+.testomonials-col h3{
+    margin-top: 15px;
+    text-align: left;
+}
